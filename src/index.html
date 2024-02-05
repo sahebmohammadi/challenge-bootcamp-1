@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge #1</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <h1>Challenge One </h1>
+  <p>Some Random Content</p>
+  <button class="btn btn--primary" id="open-modal">افزودن اطلاعات</button>
+  <div class="backdrop hidden">
+    <div class="modal">
+      <div class="modal__header">
+        <p>عنوان مدال</p>
+        <button class="close-modal">❌</button>
+      </div>
+      <div class="modal__content">
+        <!-- <p> این یک متن تستی است.</p> -->
+        <form class="form">
+          <div class="form_control">
+            <label for="school" class="form__label">موسسه آموزشی</label>
+            <input type="text" name="school" id="school" class="form_input">
+          </div>
+          <div class="form_control">
+            <label for="school" class="form__label">موسسه آموزشی</label>
+            <input type="text" name="school" id="school" class="form_input">
+          </div>
+          <div class="form_control">
+            <label for="school" class="form__label">موسسه آموزشی</label>
+            <input type="text" name="school" id="school" class="form_input">
+          </div>
+          <div class="form_control">
+            <label for="school" class="form__label">موسسه آموزشی</label>
+            <input type="text" name="school" id="school" class="form_input">
+          </div>
+          <button type="submit" class="btn btn--primary">افزودن</button>
+          <button class="btn btn--outline close-modal">انصراف</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
